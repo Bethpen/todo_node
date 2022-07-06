@@ -1,6 +1,6 @@
 const express = require("express");
 
-const todoRoute = require('./src/Routes/person.js');
+const todoRoute = require('./src/Routes/route.js');
 const dotenv = require('dotenv')
 const connectDB = require('./src/models/DB.models')
 const morgan = require('morgan');
