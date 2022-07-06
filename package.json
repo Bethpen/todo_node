@@ -1,26 +1,26 @@
 {
   "name": "todo",
   "version": "1.0.0",
-  "description": "node, mongo, express",
-  "main": "index.js",
+  "description": "node todo",
+  "main": "app.js",
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Bethpen/todo_node.git"
-  },
-  "author": "",
+  "author": "Bethpen",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Bethpen/todo_node/issues"
-  },
-  "homepage": "https://github.com/Bethpen/todo_node#readme",
   "dependencies": {
-    "dotenv": "^16.0.1",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
     "express": "^4.18.1",
+    "express-sessions": "^1.0.6",
+    "express-validator": "^6.14.2",
     "mongoose": "^6.4.2",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
     "nodemon": "^2.0.18"
   }
 }
