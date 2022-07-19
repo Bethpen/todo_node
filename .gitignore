@@ -5,4 +5,4 @@
 temp/
 
 # ignore env file
-config.env
+.env
